@@ -3,6 +3,8 @@
 # version: 0.0.2
 # authors: liu
 # url: https://github.com/xinfinite-net/discourse-wechat-article
+require_relative 'lib/white_listed_helper'
+
 after_initialize do
 
   # 设置默认白名单

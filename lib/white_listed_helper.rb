@@ -1,4 +1,4 @@
-# lib/white_lister.rb
+# lib/white_listed_helper.rb
 module WhitelistedHelper
   def self.all_whitelist
     # 获取默认白名单
