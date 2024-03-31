@@ -1,7 +1,0 @@
-# config/settings.yml 
-plugins:
-  my_whitelist_extension_enabled:
-    default: true
-    client: true
-  special_usernames:
-    default: 'admin|system' # 用|分隔多个用户名
