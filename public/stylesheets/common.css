@@ -32,13 +32,14 @@
 [data-wct-type="link-section"] {
     display: flex;
     align-items: center;
-    gap: 5px;
+    /*gap: 5px;*/
     margin-bottom: 10px;
 }
 
 [data-wct-type="link-text"] {
     font-size: 16px;
     color: #666;
+    white-space: nowrap;
 }
 
 [data-wct-type="article-link"] {
@@ -53,7 +54,7 @@
 [data-wct-type="summary-section"] {
     display: flex;
     align-items: flex-start;
-    gap: 10px;
+    /*gap: 10px;*/
 }
 
 [data-wct-type="summary-title"] {
