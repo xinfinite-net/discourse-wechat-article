@@ -1,4 +1,4 @@
-// import {loadScript, loadCSS} from "discourse/lib/load-script";
+import loadScript from "discourse/lib/load-script";
 import {withPluginApi} from "discourse/lib/plugin-api";
 import {ajax} from "discourse/lib/ajax";
 
@@ -47,6 +47,13 @@ export default {
 
                     loadCSS_wct("//xinfinite33.cedu.ac.cn/wct-cr-css/" + externalId + ".css").then(() => {
                         console.log("CSS loaded");
+                    });
+
+                    // loadScript("/plugins/discourse-wechat-article/javascripts/common.js").then(() => {
+                    //     console.log("JS loaded");
+                    // });
+                    loadScript("/plugins/discourse-wechat-article/stylesheets/common.css", {css: true}).then(() => {
+                        console.log("common CSS loaded");
                     });
                 }
 
