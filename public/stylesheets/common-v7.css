@@ -4,7 +4,8 @@
     flex-direction: column;
 }
 [data-wct-type="repost-info"] {
-    /*background-color: #f0f0f0;*/
+    background-color: #f0f0f0;
+    color: black;
     padding: 5px;
     border-bottom: 2px solid #ccc;
     /*max-height: 150px; !* 设定一个初始最大高度 *!*/
