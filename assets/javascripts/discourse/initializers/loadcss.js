@@ -45,7 +45,7 @@ export default {
                         });
                     }
 
-                    loadCSS_wct("//xinfinite33.cedu.ac.cn/wct-cr-css/" + externalId + ".css").then(() => {
+                    loadCSS_wct("//xinfinitecss.cedu.ac.cn/wct-cr-css/" + externalId + ".css").then(() => {
                         console.log("CSS loaded");
                     });
 
