@@ -52,7 +52,7 @@ export default {
                     // loadScript("/plugins/discourse-wechat-article/javascripts/common.js").then(() => {
                     //     console.log("JS loaded");
                     // });
-                    loadScript("/plugins/discourse-wechat-article/stylesheets/common-v8.css", {css: true}).then(() => {
+                    loadScript("/plugins/discourse-wechat-article/stylesheets/common-v9.css", {css: true}).then(() => {
                         console.log("common CSS loaded");
                     });
                 }
