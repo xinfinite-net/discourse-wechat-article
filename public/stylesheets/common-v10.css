@@ -43,6 +43,7 @@
 [data-wct-type="link-section"] {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     /*gap: 5px;*/
     margin-bottom: 10px;
 }
@@ -65,6 +66,7 @@
 [data-wct-type="summary-section"] {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     /*gap: 10px;*/
     margin-bottom: 10px;
 }
@@ -85,6 +87,7 @@
 [data-wct-type="discuss-section"] {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     /*gap: 10px;*/
 }
 

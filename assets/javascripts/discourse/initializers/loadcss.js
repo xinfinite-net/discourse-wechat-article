@@ -77,7 +77,7 @@ export default {
                         }
                     }
 
-                    loadScript("/plugins/discourse-wechat-article/stylesheets/common-v9.css", {css: true}).then(() => {
+                    loadScript("/plugins/discourse-wechat-article/stylesheets/common-v10.css", {css: true}).then(() => {
                         console.log("common CSS loaded");
                     });
                 },
