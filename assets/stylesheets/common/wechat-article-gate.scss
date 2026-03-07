@@ -1,0 +1,22 @@
+.wct-article-link-open-tip {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10001;
+}
+
+.wct-article-link-open-tip__inner {
+  background: rgba(34, 34, 34, 0.96);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  font-size: 14px;
+}
+
+.wct-article-link-open-tip__inner a {
+  color: #8ec5ff;
+  text-decoration: underline;
+}
+
