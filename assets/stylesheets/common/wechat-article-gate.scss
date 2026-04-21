@@ -22,6 +22,15 @@
 
 /* 游客态：在原文链接行尾追加"登录后查看"徽标 */
 /* 登录后 Discourse 整页刷新，<html> 上的 .anon 类消失，此规则自动失效 */
+html.anon [data-wct-type="link-section"] {
+  flex-wrap: nowrap; /* 覆盖默认的 wrap，保证徽标永远和链接同一行 */
+}
+
+html.anon [data-wct-type="link-section"] [data-wct-type="article-link"] {
+  flex: 1 1 0;       /* 吃掉 link-text 和徽标之外的剩余空间 */
+  min-width: 0;      /* 允许收缩到内在宽度之下，激活已有的 ellipsis */
+}
+
 html.anon [data-wct-type="link-section"]::after {
   content: "🔒 登录后查看";
   flex: 0 0 auto;
