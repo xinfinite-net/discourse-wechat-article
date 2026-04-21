@@ -20,3 +20,19 @@
   text-decoration: underline;
 }
 
+/* 游客态：在原文链接行尾追加"登录后查看"徽标 */
+/* 登录后 Discourse 整页刷新，<html> 上的 .anon 类消失，此规则自动失效 */
+html.anon [data-wct-type="link-section"]::after {
+  content: "🔒 登录后查看";
+  flex: 0 0 auto;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: #fff4e0;
+  color: #b36b00;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
